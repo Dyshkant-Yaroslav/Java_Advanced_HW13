@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Homework-13</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+     <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <servlet>
+  	<servlet-name>registration</servlet-name>
+  	<servlet-class>ua.lviv.lgs.servlet.RegistrationServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>ua.lviv.lgs.servlet.LoginServlet</servlet-class>
+  </servlet>
+  
+    <servlet>
+  	<servlet-name>ProductController</servlet-name>
+  	<servlet-class>ua.lviv.lgs.servlet.ProductController</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<servlet-class>ua.lviv.lgs.servlet.Logout</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>ProductsController</servlet-name>
+  	<servlet-class>ua.lviv.lgs.servlet.ProductsController</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>BucketController</servlet-name>
+  	<servlet-class>ua.lviv.lgs.servlet.BucketController</servlet-class>
+  </servlet>
+  
+     <servlet>
+  	<servlet-name>BucketsController</servlet-name>
+  	<servlet-class>ua.lviv.lgs.servlet.BucketsController</servlet-class>
+  </servlet>
+  
+     <servlet>
+  	<servlet-name>UserRoleServlet</servlet-name>
+  	<servlet-class>ua.lviv.lgs.servlet.UserRoleServlet</servlet-class>
+  </servlet>
+ 
+<servlet-mapping>
+  	<servlet-name>registration</servlet-name>
+  	<url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>ProductController</servlet-name>
+  	<url-pattern>/ProductController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ProductsController</servlet-name>
+  	<url-pattern>/ProductsController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>BucketController</servlet-name>
+  	<url-pattern>/BucketController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>BucketsController</servlet-name>
+  	<url-pattern>/BucketsController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+  	<servlet-name>UserRoleServlet</servlet-name>
+  	<url-pattern>/UserRoleServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
+
+
